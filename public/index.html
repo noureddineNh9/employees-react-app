@@ -43,7 +43,7 @@
          if ("serviceWorker" in navigator) {
             window.addEventListener("load", function () {
                navigator.serviceWorker
-                  .register("employees-react-app/worker.js")
+                  .register("/worker.js")
                   .then(
                      function (registration) {
                         console.log(
