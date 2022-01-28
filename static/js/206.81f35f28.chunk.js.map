@@ -1,0 +1,1 @@
+{"version":3,"file":"static/js/206.81f35f28.chunk.js","mappings":"6IAMA,UAJA,WACG,OAAO,eAAIA,UAAU,cAAd","sources":["pages/HomePage.js"],"sourcesContent":["import React from \"react\";\n\nfunction HomePage() {\n   return <h1 className=\"text-center\">React Practice</h1>;\n}\n\nexport default HomePage;\n"],"names":["className"],"sourceRoot":""}
