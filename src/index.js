@@ -8,7 +8,7 @@ import store from "./store/Store";
 import "./assets/css/tailwind.css";
 import "./styles/main.scss";
 
-import * as serviceWorker from "./serviceWorker";
+import * as serviceWorkerRegistration from "./serviceWorkerRegistration";
 
 ReactDOM.render(
    <Provider store={store}>
@@ -18,3 +18,4 @@ ReactDOM.render(
    </Provider>,
    document.getElementById("root")
 );
+serviceWorkerRegistration.register();
