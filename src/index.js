@@ -8,6 +8,8 @@ import store from "./store/Store";
 import "./assets/css/tailwind.css";
 import "./styles/main.scss";
 
+import * as serviceWorker from "./serviceWorker";
+
 ReactDOM.render(
    <Provider store={store}>
       <BrowserRouter>
