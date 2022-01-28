@@ -1,6 +1,7 @@
 import React, { Suspense, lazy } from "react";
 import { Switch, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
+import NotFound from "./pages/NotFound";
 
 // parameter state comes from index.js provider store state(rootReducers)
 
@@ -47,6 +48,9 @@ class App extends React.Component {
                            </Route>
                            <Route path="/performance">
                               <Performance />
+                           </Route>
+                           <Route>
+                              <NotFound />
                            </Route>
                         </Switch>
                      </Suspense>

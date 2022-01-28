@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import App from "./App";
 import { Provider } from "react-redux";
-import { BrowserRouter } from "react-router-dom";
+import { HashRouter } from "react-router-dom";
 
 import store from "./store/Store";
 import "./assets/css/tailwind.css";
@@ -12,9 +12,9 @@ import * as serviceWorkerRegistration from "./serviceWorkerRegistration";
 
 ReactDOM.render(
    <Provider store={store}>
-      <BrowserRouter>
+      <HashRouter>
          <App />
-      </BrowserRouter>
+      </HashRouter>
    </Provider>,
    document.getElementById("root")
 );
