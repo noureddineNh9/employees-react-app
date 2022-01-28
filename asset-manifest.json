@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/employees-react-app/static/css/main.22a19de3.css",
-    "main.js": "/employees-react-app/static/js/main.501d44e7.js",
+    "main.js": "/employees-react-app/static/js/main.e2a5b230.js",
     "static/js/206.81f35f28.chunk.js": "/employees-react-app/static/js/206.81f35f28.chunk.js",
     "static/js/324.4f2a8dca.chunk.js": "/employees-react-app/static/js/324.4f2a8dca.chunk.js",
     "static/js/11.14dabbb7.chunk.js": "/employees-react-app/static/js/11.14dabbb7.chunk.js",
@@ -10,7 +10,7 @@
     "service-worker.js": "/employees-react-app/service-worker.js",
     "index.html": "/employees-react-app/index.html",
     "main.22a19de3.css.map": "/employees-react-app/static/css/main.22a19de3.css.map",
-    "main.501d44e7.js.map": "/employees-react-app/static/js/main.501d44e7.js.map",
+    "main.e2a5b230.js.map": "/employees-react-app/static/js/main.e2a5b230.js.map",
     "206.81f35f28.chunk.js.map": "/employees-react-app/static/js/206.81f35f28.chunk.js.map",
     "324.4f2a8dca.chunk.js.map": "/employees-react-app/static/js/324.4f2a8dca.chunk.js.map",
     "11.14dabbb7.chunk.js.map": "/employees-react-app/static/js/11.14dabbb7.chunk.js.map",
@@ -19,6 +19,6 @@
   },
   "entrypoints": [
     "static/css/main.22a19de3.css",
-    "static/js/main.501d44e7.js"
+    "static/js/main.e2a5b230.js"
   ]
 }
