@@ -16,15 +16,15 @@ class App extends React.Component {
             <div className="flex h-screen">
                <input
                   type="checkbox"
-                  class="side__navbar__checkbox hidden"
+                  className="side__navbar__checkbox hidden"
                   id="nav-toggle"
                />
                <label
                   id="sidebar-btn"
-                  for="nav-toggle"
-                  class="side__navbar__button lg:hidden"
+                  htmlFor="nav-toggle"
+                  className="side__navbar__button lg:hidden"
                >
-                  <span class="side__navbar__icon">&nbsp;</span>
+                  <span className="side__navbar__icon">&nbsp;</span>
                </label>
                <div
                   className="navbar-container bg-white border-r border-gray-400  h-screen
